@@ -1,0 +1,16 @@
+qty=float(input("enter the value : "))
+value=float(input("enter the value : "))
+discount=float(input("enter the amount : "))
+tax_amount=float(input("enter the value : "))
+price=qty*value
+discount_amt=(price*discount)/100
+sub_price=price-discount_amt
+tax=(sub_price*tax_amount)/100
+total_amount=sub_price+tax
+print("Quantity sold = "+str(qty))
+print("price per item = "+str(value))
+print("Amount = "+str(price))
+print("Discount = "+str(discount_amt))
+print("discounted price = "+str(sub_price))
+print("Tax = "+str(tax))
+print("Total amount to be paid = "+str(total_amount))

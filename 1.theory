@@ -1,0 +1,35 @@
+recurssion : function call itself to solve smaller version of task until final call itself
+2 types:
+base case : function call itself
+recursive case : divided into subparts then subparts call itself then combining the result of subparts.
+DIVID and CONQUER techniques are used to make subparts and get solution.
+we use this type of function for FACTORIAL problems.
+----------------------------------------------------------------------------------------------------------------------------------
+MODULES : function helps to reuse particular code in your program.here we import modules.
+ 1.dir() function, 2.namespace, 3.packages
+ __init__.py : this not even single line of code,indicates contains a python packages.
+ reload() : import module into program code at once when we wants again import a module then use reload to import
+ ----------------------------------------------------------------------------------------------------------------------------------
+ STRINGS:
+ strings are immutable: once created it can't be change.
+ string methods: str.count,str.upper,str.lower,isalpha,isnum,isdigit,endswith,startwith,find,center,strip(remove),split,title'
+ slicing:[1:10],[-1:-6][::3]
+ ord() and chr(): to print ascii values of character.
+ in and out operation
+ comparing string
+ regular expression : match the strings at the beginning of the string
+ search function : match the string anywhere in the line.
+ sub() function : to replace the string 
+ findall : find string and list of matches of the pattern in the string.
+ character class() : put same characters in the square bracket.
+ metacharacter : (*,infinte)(+,atleast one),(?,either),($,endswith),(^,startwith)
+  --------------------------------------------------------------------------------------------------------------------------------------
+ OPENING AND CLOSING FILES:
+ open file,close file,read file,write file,append file
+ file=open(filename,access mode)
+ in read file : once u close can't read/write anything
+ in write file : after the file close u can write/read.
+ FILE POSTITION : 
+ tell():tells the file position 
+ seek(): move to the new location 
+ offset(): number of bytes to be move.
